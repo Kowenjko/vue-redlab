@@ -1,0 +1,56 @@
+@import '../assets/fonts/TTTravels.css';
+
+:root {
+  --text-black: #404040;
+  --text-white: #ffffff;
+  --text-secondary: #636c81;
+  --purple: #5a30f0;
+  --light-purple: #897df2;
+  --light-grey: #f3f6fb;
+  --middle-grey: #e2e8f0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  margin: 0 auto;
+  @media screen and (max-width: 1024px) {
+    max-width: 960px;
+  }
+
+  @media (min-width: 324px) and (max-width: 450px) {
+    max-width: 324px;
+  }
+  @media (min-width: 451px) and (max-width: 767px) {
+    max-width: 450px;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    max-width: 670px;
+  }
+  @media (min-width: 1024px) and (max-width: 1199px) {
+    max-width: 1010px;
+  }
+  @media (min-width: 1200px) and (max-width: 1440px) {
+    max-width: 1200px;
+  }
+  @media screen and (min-width: 1440px) {
+    max-width: 1440px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-black);
+}
