@@ -1,6 +1,9 @@
 <script setup>
 import Card from '../components/Card.vue'
 import check from '../assets/images/check.png'
+import bowl from '../assets/images/bowl.png'
+import roket from '../assets/images/roket.png'
+import clock from '../assets/images/clock.png'
 
 const cards = [
   {
@@ -12,21 +15,21 @@ const cards = [
   },
   {
     id: 2,
-    image: 'bowl.png',
+    image: bowl,
     description:
       'Наша доставка гарантує вам високу якість продуктів. Кожна страва, яку ми готуємо, пройшла строгий контроль якості, щоб забезпечити вам найкращий смаковий досвід.',
     duration: 1,
   },
   {
     id: 3,
-    image: 'roket.png',
+    image: roket,
     description:
       'Наша доставка гарантує вам високу якість продуктів. Кожна страва, яку ми готуємо, пройшла строгий контроль якості, щоб забезпечити вам найкращий смаковий досвід.',
     duration: 1.2,
   },
   {
     id: 4,
-    image: 'clock.png',
+    image: clock,
     description:
       'Наша доставка гарантує вам високу якість продуктів. Кожна страва, яку ми готуємо, пройшла строгий контроль якості, щоб забезпечити вам найкращий смаковий досвід.',
     duration: 1.5,
