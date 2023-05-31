@@ -1,10 +1,11 @@
 <script setup>
 import Card from '../components/Card.vue'
+import check from '../assets/images/check.png'
 
 const cards = [
   {
     id: 1,
-    image: 'check.png',
+    image: check,
     description:
       'Наша доставка гарантує вам високу якість продуктів. Кожна страва, яку ми готуємо, пройшла строгий контроль якості, щоб забезпечити вам найкращий смаковий досвід.',
     duration: 0.5,

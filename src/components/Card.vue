@@ -16,7 +16,7 @@ const cardIsVisible = useElementVisibility(cardRef)
     :style="[{ transition: `all ${cardIsVisible ? card.duration : 0}s ease-in` }]"
     ref="cardRef"
   >
-    <img :src="`../assets/images/${card.image}`" alt="" />
+    <img :src="card.image" alt="" />
     <div class="description">{{ card.description }}</div>
   </div>
 </template>
