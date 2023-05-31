@@ -48,8 +48,8 @@ watch([x, y], () => {
 <style lang="scss" scoped>
 .circle-wrapper {
   cursor: pointer;
-  width: 195px;
-  height: 195px;
+  width: 150px;
+  height: 150px;
   background: var(--purple);
   border-radius: 50%;
   position: fixed;
@@ -61,6 +61,10 @@ watch([x, y], () => {
   align-items: center;
   transition: all 0.5s ease-in;
   transform: scale(1) translate(-50%, 0);
+  @media (min-width: 768px) {
+    width: 195px;
+    height: 195px;
+  }
   &.transition {
     transform: translate(-50%, 0) scale(0.8);
     left: 50%;

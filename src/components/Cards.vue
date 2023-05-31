@@ -45,16 +45,15 @@ const cards = [
 <style lang="scss" scoped>
 .cards-wrapper {
   padding: 72px 0;
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  grid-template-columns: none;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 100%;
   gap: 40px;
+
   @media (min-width: 768px) {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: none;
+    flex-direction: row;
   }
 }
 </style>

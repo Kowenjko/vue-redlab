@@ -51,10 +51,15 @@ import Circle from '../components/Circle.vue'
     h1 {
       font-size: 76px;
       font-weight: 400;
-      @media (max-width: 768px) {
+      @media (max-width: 767px) {
         font-size: 40px;
       }
-      @media (max-width: 1200px) {
+      @media (min-width: 768px) and (max-width: 1199px) {
+        margin-top: 40px;
+        font-size: 40px;
+      }
+      @media (min-width: 1200px) {
+        margin-top: 0px;
         font-size: 52px;
       }
     }

@@ -30,7 +30,7 @@ const cardIsVisible = useElementVisibility(cardRef)
   justify-content: center;
   align-items: center;
   height: 328px;
-  max-width: 300px;
+  width: 100%;
   background-color: var(--light-grey);
   border-radius: 8px;
   overflow: hidden;
