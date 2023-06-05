@@ -19,7 +19,6 @@ const checked = ref(true)
   border: 1px solid var(--middle-grey);
   border-radius: 48px;
   cursor: pointer;
-  display: flex;
   justify-content: space-around;
   align-items: center;
   padding: 0 8px;

@@ -1,0 +1,15 @@
+name: Deploy vue
+'on':
+  push:
+    branches:
+      - main
+jobs:
+  build_and_preview:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v2
+      - name: Build hosting and functions
+        run: |
+          yarn install            
+          yarn build
